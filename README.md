@@ -29,7 +29,7 @@ Serviços AWS utilizados:
 4. Configurando o AWS Lambda:
    - Acesse o painel do AWS Lambda.
    - Crie uma nova função Lambda com o nome "put_item_function".
-   - Cole o código da função "put_item_function.js" disponível na pasta /src e faça o deploy.
+   - Cole o código da função "put_item_function.js" disponível na raiz e faça o deploy.
    - Abra a role de execução no console do IAM.
    - Adicione uma política inline para permitir a ação "putItem" no serviço DynamoDB.
    - Associe a política à tabela criada no DynamoDB.
